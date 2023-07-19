@@ -1,0 +1,37 @@
+v20.3.0
+- Kodi inputstream API update to version 3.2.0
+- Kodi PVR API update to version 8.0.2
+
+v20.2.0
+- Parse series title and episode name from epg
+
+v20.1.0
+- Kodi main API update to version 2.0.0
+
+v20.0.3
+- Fix creation of broadcast and channel uid
+
+v20.0.2
+- Fix memory leak when redirecting HTTP requests
+- Load channel data on demand, not on add-on startup
+- Do not report API call success when channels can't be loaded
+- Fix crash on HTTP request error
+- Code cleanup
+
+v20.0.1
+- Speedup and fix EPG data caching
+
+v20.0.0
+- Initial Nexus version
+
+v0.0.4
+- Fix no EPG data if Kodi setting 'past days to display' is greater than zero
+
+v0.0.3
+- Cleanup and prepare to move to kodi-pvr
+
+v0.0.2
+- Dynamic UUID for Device ID and SID
+
+v0.0.1
+- Initial alpha version
