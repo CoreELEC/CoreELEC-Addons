@@ -1,0 +1,42 @@
+v1.0.6 (2023-10-07)
+- Fix compatibility with Kodi 21 "Omega".
+
+v1.0.5 (2020-12-28)
+- Fix compatibility with Kodi 19 "Matrix".
+
+v1.0.4 (2020-07-10)
+- Add support for multiple Ethernet and WiFi interfaces for the network indicators.
+
+v1.0.3 (2019-02-16)
+- Fix Alarm for storage access indicator.
+- Fix Indicators items being greyed out in the addon settings.
+
+v1.0.2 (2018-08-01)
+- Fix temperature showing 0C in some situations.
+
+v1.0.1 (2018-06-12)
+- Add support for turning individual indicators on and off.
+- Fix playback time remains on display after the playback ends.
+
+OpenVFD:
+--------
+v1.0.0
+- Rename addon to OpenVFD.
+- Add temperature, playback time (PVR sources not supported) and date display.
+- Expand and rearrange the settings.
+
+FD628:
+------
+v110
+- Rewrite add-on from scratch
+- Add support for APPS, SETUP, CVBS (X92) and POWER (A1 Max) indicators.
+- Add a configuration dialog:
+    * Adjust display brightness.
+    * Storage access indication.
+    * Advanced hardware configuration of the display.
+- Fix crash if aml_fd628 module is not loaded (led_on, led_off files don't exist)
+- Fix disable add-on from Kodi UI.
+- Turn off indicators when add-on is disabled.
+
+v100
+- Initial add-on
