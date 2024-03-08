@@ -1,0 +1,20 @@
+v1.0.0-matrix:
+-- Initial rework.
+v1.0.1-matrix:
+-- Fix games list scraping algorithm where debug information would be scraped as game.
+-- Improve pairing information: report error in dialog if available.
+-- Blank framebuffers on prescript.sh.
+-- Add missing icons.
+v1.0.2-matrix:
+-- Fixed pairing iterator issues.
+-- Added automatic bug reporting (supported only on some platforms)
+-- Added force unpair by key option.
+v1.1.0-matrix:
+-- Fixed launchscript configuration on updates.
+-- Updated launchscripts.
+v1.1.1-matrix:
+-- [moonlight-embedded] Supply amlogic codec with packets' PTS (noticed less stuttering)
+v1.2.0:
+-- [moonlight-embedded] updates from upstream, codec fixes
+v1.2.1:
+-- New launchscripts - thank you @praxis88.
