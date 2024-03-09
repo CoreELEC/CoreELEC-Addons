@@ -1,0 +1,4 @@
+v21.0.0
+- Change add-on to use inputstream.ffmpegdirect which also enables timeshifting
+- Fix jsoncpp deprecation warnings
+- Add build script for mac
